@@ -13,4 +13,5 @@ class Solution:
         for i in range(1, N+1):
             if len(egress[i]) == 0 and len(ingress[i]) == N - 1:
                 return i
-        return -1
+        return -1 
+    
