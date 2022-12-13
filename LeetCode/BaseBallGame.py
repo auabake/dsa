@@ -1,6 +1,8 @@
 """
 This was also assked in turing code challenge
 """
+from typing import List
+
 class Solution:
     def calPoints(self, operations: List[str]) -> int:
         stack = []
