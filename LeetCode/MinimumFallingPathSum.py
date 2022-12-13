@@ -54,3 +54,19 @@ class Solution(object):
 				 [ 4, 5, 6],
 				 [ 7, 8, 9] ]
 		print(minFallingPathSum(matrix))
+
+# optimized from leetcode 97%
+class Solution(object):
+   def minFallingPathSum(matrix):
+        n=len(matrix)
+        m=len(matrix[0])
+        for i in range(1,n):
+            for j in range(m):
+                matrix[i][j] += min(matrix[i-1][max(0,j-1):min(m,j+2)])
+        return min(matrix[n-1])
+
+   if __name__ == "__main__" :
+      matrix = [ [ 1, 2, 3],
+         [ 4, 5, 6],
+         [ 7, 8, 9] ]
+      print(minFallingPathSum(matrix))
