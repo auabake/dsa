@@ -1,3 +1,6 @@
+"""
+This was also assked in turing code challenge
+"""
 class Solution:
     def calPoints(self, operations: List[str]) -> int:
         stack = []
