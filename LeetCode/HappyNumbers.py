@@ -1,4 +1,5 @@
-# Happy Numbers
+"""
+Happy Numbers
 Write an algorithm to determine if a number n is happy.
 
 A happy number is a number defined by the following process:
@@ -25,3 +26,4 @@ Example 2:
 
 Input: n = 2
 Output: false
+"""
