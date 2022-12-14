@@ -16,10 +16,10 @@ Output: [8,9,9,9,0,0,0,1]
 
 """
 # Definition for singly-linked list.
-# class ListNode(object):
-#     def __init__(self, val=0, next=None):
-#         self.val = val
-#         self.next = next
+class ListNode(object):
+    def __init__(self, val=0, next=None):
+        self.val = val
+        self.next = next
 class Solution:
     def addTwoNumbers(self, l1, l2):
         """
