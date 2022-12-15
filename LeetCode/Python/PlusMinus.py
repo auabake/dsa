@@ -22,7 +22,6 @@ Results are printed as:
 0.400000
 0.200000
 """
-#!/bin/python3
 
 import math
 import os
