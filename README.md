@@ -11,7 +11,7 @@ Collection of coding problems & solutions I solved on LeetCode using Python, Jav
 
 | # | Problem | Difficulty | Solution |      
 |---|---------|------------|----------|
-1 | [Two Sum](https://leetcode.com/problems/two-sum) | Easy | [Python](./Python/TwoSum.py)
-2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers) | Medium | [Python](./Python/AddTwoNumbers.py)
+1 | [Two Sum](https://leetcode.com/problems/two-sum) | Easy | [Python](./LeetCode/Python/TwoSum.py)
+2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers) | Medium | [Python](./LeetCode/Python/AddTwoNumbers.py)
 
 
