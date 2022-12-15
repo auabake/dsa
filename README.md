@@ -1,12 +1,13 @@
 # Data Structures & Algorithms (DSA)
-![alt text](dsa.jpg)
 
 ![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg?style=for-the-badge)
 ![Github](https://img.shields.io/badge/languages-python-green.svg?longCache=true&style=for-the-badge)
 ![Github](https://img.shields.io/badge/languages-java-green.svg?longCache=true&style=for-the-badge)
+![Github](https://img.shields.io/badge/languages-c++-green.svg?longCache=true&style=for-the-badge)
 
+![alt text](dsa.jpg)
 
-Collection of coding problems & solutions I solved on LeetCode using Python, Java and C++.
+Collection of coding problems & solutions solved on LeetCode using Python, Java & C++.
 
 
 | # | Problem | Difficulty |Pyhton Solution | Java Solution|C++ Solution|
