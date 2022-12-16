@@ -5,7 +5,7 @@
 ![Github](https://img.shields.io/badge/languages-java-green.svg?longCache=true&style=for-the-badge)
 ![Github](https://img.shields.io/badge/languages-c++-green.svg?longCache=true&style=for-the-badge)
 
-![alt text](dsa.jpg)
+![alt text](./LeetCode/Python/dsa.jpg)
 
 Collection of coding problems & solutions solved on LeetCode using Python, Java & C++.
 
