@@ -47,3 +47,4 @@ class Solution:
 
         node_prev.next = node1.next
         return head
+        
