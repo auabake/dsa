@@ -34,6 +34,7 @@ def timeConversion(s):
     # trik is to use python slice method
     #s[-2:] gets the last 2 items and s[:2] all but the first two items 
    
+   
     if s[-2:] == "AM" and s[:2] == "12": 
             return "00" + s[2:-2]  
 
