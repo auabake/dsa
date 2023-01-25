@@ -6,7 +6,7 @@
 
 // Example 1:
 
-// Input: nums = [2,7,11,15], target = 9
+// Input: nums = [2,11,15,7], target = 9
 // Output: [0,1]
 // Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
 
@@ -41,5 +41,26 @@ class Solution {
         }
         
         return ans;
+    }
+}
+
+// Big 0(n2) 
+
+//secnd solution Big 0(n)
+class Solution {
+    public int[] twoSum(int[] nums, int target) {
+        Map<Integer, Integer> dictstore = new HashMap<>();
+        
+        for (int i = 0; i < nums.length; ++i) {
+            int temp = target - nums[i];
+            
+            if (dictstore.containsKey(temp)) {
+                return new int[] {dictstore.get(temp), i};
+            }
+            
+            dictstore.put(nums[i], i);
+        }
+        
+        return null;
     }
 }
