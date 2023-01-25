@@ -44,7 +44,7 @@ class Solution {
     }
 }
 
-// Big 0(n2) 
+// Big 0(n2) 2sum
 
 //secnd solution Big 0(n)
 class Solution {
