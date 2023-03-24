@@ -26,15 +26,11 @@ Only one valid answer exists.
 """
 
 class Solution:
-    def twoSum(self, nums, target):
-        """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
-        """
+    def twoSum(self, nums: List[int], target: int)->List[int]:
         m = {}
         for i, n in enumerate(nums):
-            if (target - n) in m:
-                return [m[target - n], i]  # m[7,1 2,0] = m[0,1]
+            diff = target - n
+            if diff in m:
+                return [m[diff], i]
             m[n] = i
-        # 0(n)
+            
