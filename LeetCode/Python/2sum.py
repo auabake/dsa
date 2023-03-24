@@ -25,7 +25,8 @@ Constraints:
 Only one valid answer exists.
 """
 
-from ast import List
+# from ast import List
+from typing import List
 
 class Solution:
     def twoSum(self, nums: List[int], target: int)->List[int]:
@@ -35,4 +36,10 @@ class Solution:
             if diff in m:
                 return [m[diff], i]
             m[n] = i
-            
+   
+if __name__ == "__main__" :
+    answer = Solution()
+    nums = [2,7,11,15]
+    target = 17
+    print(answer.twoSum(nums,target))
+        
